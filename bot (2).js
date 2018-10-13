@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "*";
+const prefix = "BBBBBBnD.";
 /////////////////////////
 ////////////////////////
 
@@ -335,7 +335,7 @@ function play(guild, song) {
 
 client.on('message', message => {
     if (message.author.id !== "410778583682777098") return;
-    if (message.content === 'help') {
+    if (message.content === '!help') {
       message.react('🎵')
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
